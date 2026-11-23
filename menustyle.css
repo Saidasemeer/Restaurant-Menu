@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: sans-serif;
+     background-color: #FFF8EF;
+       color: #333333;
+    line-height: 1.6;
+}
+.menu-card {
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    border:1px solid #D5B779;
+    border-radius: 10px;
+    flex:1 1 250px;
+    max-width: 350px;
+}
+header{
+    background-color:  #173D32;
+    color:  #F5EFE3;
+    text-align: center;
+    padding: 10px 20px;
+}
+header h1{
+    font-family: Georgia, serif;
+    font-size: 42px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+header p{
+    color: #D5B779;
+    font-size: 16px;
+}
+nav{
+    margin-top: 25px;
+}
+nav a{
+    color:  #F5EFE3;
+    margin: 0 15px;
+    font-size: 16px;
+    text-decoration: none;
+}
+nav a :hover{
+    color:  #D5B779;
+}
+.menu-section{
+   padding:  10px 10px;
+}
+.menu-section h2{
+    color: #173D32;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.menu-items{
+    display: flex;
+    text-align: center;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.menu-card h3{
+color:  #173D32;
+}
+.price{
+   color:  #C76B48;
+   font-weight: bold;
+}
+.menu-card :hover{
+     transform: translateY(-5px);
+    transition: 0.3s;
+}
+.menu-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* FOOD IMAGES */
+
+.menu-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* MENU CARD HOVER */
+
+.menu-card {
+    transition: 0.3s;
+}
+
+.menu-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+
+.about {
+    background-color: #EAE2D3;
+    padding: 60px 15%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.about h2 {
+    color: #173D32;
+    font-size: 32px;
+}
+
+.about h3 {
+    color: #C76B48;
+}
+
+.about p {
+    line-height: 1.9;
+    font-size: 16px;
+}
+
+
+footer {
+    background-color: #173D32;
+    color: #F5EFE3;
+    text-align: center;
+    padding: 35px 20px;
+    margin-top: 30px;
+}
+
+footer h2 {
+    color: #D5B779;
+}
+
+.copyright {
+    border-top: 1px solid #668477;
+    padding-top: 20px;
+    margin-top: 25px;
+    font-size: 13px;
+}
